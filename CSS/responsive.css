@@ -86,10 +86,17 @@
         width: fit-content;
         font-size: 15px;
     }
-     .carousel-caption h1{
-        font-size: 55px;
+    .carousel-caption {
+        width: 80%;
+        padding: 0;
     }
-
+     .carousel-caption h1{
+        padding-top: 70px;
+        font-size: 35px;
+    }
+    .carousel-caption p{
+        font-size: 13px;
+    }
 
 }
 
@@ -101,7 +108,7 @@
         width: 20px;
     }
     .carousel-caption p{
-        font-size: 13px;
+        font-size: 10px;
     }
 }
 
