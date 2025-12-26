@@ -108,7 +108,7 @@ function detailsRender(product, btnInfo){
             <span><b class = 'fs-5'>Description: </b> ${product.description} </span><br>
             <span><b>Minimum Order Quantity: </b>${product.minimumOrderQuantity}</span><br>
             <br>
-            <h6 class = 'd-flex gap-2'><img src = '../images/enlarge.png'> Dimensions</h6>
+            <h6 class = 'd-flex gap-2'><img src = '/images/enlarge.png'> Dimensions</h6>
             <ul class = 'dimensions'>
                 <li>Width: ${product.dimensions.width}cm</li>
                 <li>Height: ${product.dimensions.height}cm</li>
