@@ -22,7 +22,7 @@ function render(productList = []){
     let storage = storageManager(null, "select")
     productList.forEach(product => {
         let existing = storage.find(item => product.id == item.id)
-        let buyBtn = `<button id = '${product.id}' class = 'cartBtn'>Add to Cart<img class = 'icon' src = '../images/black-cart.png'> </button>`
+        let buyBtn = `<button id = '${product.id}' class = 'cartBtn'>Add to Cart<img class = 'icon' src = 'images/black-cart.png'> </button>`
         if(existing){
             buyBtn = `<button id = '${product.id}' class = 'cartBtn' disabled>Added</button>`
         }
